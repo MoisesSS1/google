@@ -66,7 +66,15 @@ body{
     font-size: 16px;
     padding: 0 50px;
     border: 1px solid #dfdfdf;
+  
+}
+
+#search-input:hover {
     box-shadow: 0px 0px 5px #ddd;
+}
+
+input:focus { 
+    outline: 0;
 }
 
 #search-icon, #keyboard-icon, #mic-icon {
@@ -102,5 +110,4 @@ body{
 #body input[type="submit"]:hover {
     color: #333;
     border-color: rgb(155, 154, 154);
-
 }
